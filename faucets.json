@@ -1,35 +1,24 @@
 {
-  "lastUpdated": "2023-11-20T00:00:00Z",
-  "categories": [
-    {
-      "name": "Solana",
-      "icon": "https://cryptologos.cc/logos/solana-sol-logo.png",
-      "faucets": [
-        {
-          "name": "Solana QuickNode",
-          "url": "https://faucet.quicknode.com/solana/devnet",
-          "description": "0.1 SOL every 24h",
-          "icon": "https://cryptologos.cc/logos/quicknode-quicknode-logo.png"
-        },
-        {
-          "name": "SolFaucet",
-          "url": "https://solfaucet.com",
-          "description": "0.01 SOL every hour",
-          "icon": "https://cryptologos.cc/logos/solana-sol-logo.png"
-        }
-      ]
-    },
-    {
-      "name": "Ethereum",
-      "icon": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
-      "faucets": [
-        {
-          "name": "Goerli Faucet",
-          "url": "https://goerlifaucet.com",
-          "description": "0.05 ETH daily",
-          "icon": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
-        }
-      ]
-    }
-  ]
-}
+                name: "Solana",
+                icon: "https://cryptologos.cc/logos/solana-sol-logo.png",
+                faucets: [
+                    {
+                        name: "SolFaucet",
+                        url: "https://solfaucet.com",
+                        description: "0.01 SOL every hour",
+                        icon: "https://cryptologos.cc/logos/solana-sol-logo.png"
+                    }
+                ]
+            },
+            {
+                name: "Ethereum",
+                icon: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+                faucets: [
+                    {
+                        name: "Goerli Faucet",
+                        url: "https://goerlifaucet.com",
+                        description: "0.05 ETH daily",
+                        icon: "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+                    }
+                ]
+            }
